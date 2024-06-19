@@ -24,22 +24,22 @@ Processar pedidos e gerar relatório.
      - 
   Exemplo da mensagem que deve ser consumida:
 
-   {
-       "codigoPedido": 1001,
-       "codigoCliente":1,
-       "itens": [
-           {
-               "produto": "lápis",
-               "quantidade": 100,
-               "preco": 1.10
-           },
-           {
-               "produto": "caderno",
-               "quantidade": 10,
-               "preco": 1.00
-           }
-       ]
-   }
+{
+  "codigoPedido": 1001,
+  "codigoCliente": 1,
+  "itens": [
+    {
+      "produto": "lápis",
+      "quantidade": 100,
+      "preco": 1.10
+    },
+    {
+      "produto": "caderno",
+      "quantidade": 10,
+      "preco": 1.00
+    }
+  ]
+}
 
   5. Crie uma API REST, em que permita o consultar as seguintes informações:
     - Valor total do pedido
